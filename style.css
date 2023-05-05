@@ -1,0 +1,166 @@
+body{
+    color: seashell;
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    opacity: 0.9;
+}
+.name{
+    color: gray;
+    top: 0px;
+    height: 69px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /*space-between no guarda espacio en los margenes solo entre los elementos*/
+    position: fixed;
+    width: 100%;
+    background-color: black;
+}
+.name img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.buttons a{
+    margin-right: 0.5em;
+    text-decoration: underline;
+}
+.misionSection{
+    margin-top: 69px;
+    position: relative;
+   
+}
+.misionSection img {
+    width: 100%;
+    height: auto; /*Ponemos auto para que la altura se adapte*/
+}
+.missionText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    background-color: black;
+    transform: translate(-50%, -50%);/*Para hacer la diagonal poner los valores en negativo*/
+    text-align: center;
+}
+.missionText h2{
+    margin-top: 20px;
+}
+.missionText h4{
+    margin-bottom: 10px;
+}
+.teatext h2{
+    margin-top: 95px;
+}
+.teatext h3{
+    margin-bottom: 25px;
+}
+
+.mision{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Teatypes{
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    /*flex wrap para que salten las 2 imagenes abajo*/
+    column-gap: 25px;
+    /*separa las viñetas*/
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 15px;
+    color: seashell;
+}
+.teatypes-image-container img{
+    width: 300px;
+    height: 200px;
+}
+.Locations img{
+    width: 100%;
+    height: auto;
+}
+.Locations h2{
+    position: absolute;
+    bottom: -180%;
+    left: 50%;
+    width: 0%;
+    color: gray;
+    display: flex;
+    justify-content: center;
+}
+.Locations{
+    position: relative;
+}
+
+.Locations-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.LocationTitle{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 10%;
+    right: 50%;
+   
+}
+.LocationTitle h2 {
+    color: seashell;
+    font-family: Helvetica;
+    font-weight: 9000;
+}
+.LocationCard-container{
+    display: flex;   
+}
+.Locations h2{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    top: 10%;
+    margin-bottom: 15px;
+}
+
+.Locations-city{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center; /* ESTO es lo que aliena en el CENTRO*/
+
+    background-color: black;
+    width: 300px;
+    margin-left: 40px;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+}
+.Teatext{
+    text-align: center;
+    color:gray;
+}
+.Teatext h2{
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+.Teatext h3{
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+.Teatext h4{
+    font-size: 20px;
+}
+footer{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    margin-left: 20px;
+}
